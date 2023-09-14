@@ -1,5 +1,10 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
   text-align: center;
+  padding: 100px;
 }
 
 .App-logo {
@@ -35,4 +40,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.stepDiv {
+  display: flex;
+  justify-content: center;
+
+}
+
+.divCount {
+  display: flex;
+  justify-content: center;
+}
+
+.stepMinus,
+.stepPlus,
+.countMinus,
+.countPlus {
+  height: 100%;
+  width: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.stepMinus:active,
+.stepPlus:active,
+.countMinus:active,
+.countPlus:active {
+  scale: 1.1;
+
+
+}
+
+
+.countStep,
+.countContent,
+.stepCounter,
+.count {
+  margin: 10px;
+
+}
+
+.contentShow {
+  background-color: rgba(31, 88, 222, 0.514);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: white;
+
+}
+
+button {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  background: #5864be;
+  /* padding: 0px 20px; */
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  margin-top: 10px;
 }
