@@ -86,8 +86,8 @@
 
 }
 
-.contentShow {
-  background-color: rgba(31, 88, 222, 0.514);
+.showContent {
+  background-color: rgba(42, 43, 46, 0.514);
   padding: 20px;
   font-size: 30px;
   font-weight: bolder;
@@ -101,7 +101,7 @@ button {
   text-align: center;
   height: 30px;
   width: 30px;
-  background: #5864be;
+  background: #335e51;
   /* padding: 0px 20px; */
   border-radius: 5px;
   font-size: 25px;
